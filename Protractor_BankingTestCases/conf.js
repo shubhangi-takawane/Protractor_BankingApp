@@ -1,4 +1,4 @@
-var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
+//var Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
 // An example configuration file.
 exports.config = {
  directConnect: true,
@@ -36,12 +36,12 @@ exports.config = {
       }
       ],*/
   
-  onPrepare: function() {
+  /*onPrepare: function() {
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
           savePath: 'target/screenshots'
         })
       );
-   },
+   },*/
   
 };
