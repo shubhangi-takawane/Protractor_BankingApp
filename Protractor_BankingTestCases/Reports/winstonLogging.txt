@@ -1,3 +1,9 @@
 {"level":"info","message":"url is opened","timestamp":"2018-04-19T01:25:49.712Z"}
 {"level":"info","message":"closing the browser","timestamp":"2018-04-19T01:25:49.716Z"}
 {"level":"error","message":"closing","timestamp":"2018-04-19T01:25:49.716Z"}
+{"level":"info","message":"url is opened","timestamp":"2018-04-24T21:52:25.662Z"}
+{"level":"info","message":"closing the browser","timestamp":"2018-04-24T21:52:25.664Z"}
+{"level":"error","message":"closing","timestamp":"2018-04-24T21:52:25.664Z"}
+{"level":"info","message":"url is opened","timestamp":"2018-04-24T21:59:56.662Z"}
+{"level":"info","message":"closing the browser","timestamp":"2018-04-24T21:59:56.664Z"}
+{"level":"error","message":"closing","timestamp":"2018-04-24T21:59:56.664Z"}

@@ -31,7 +31,7 @@ describe('Banking framework testing', function() {
 		console.log('Manager page lunched with the Add customer,Open accounts,Customer');
 	   });
   
-  xit('Add Customers', function() {
+  it('Add Customers', function() {
 	   		
 	    element(by.partialButtonText('Bank Manager Login')).click();
 	    element(by.buttonText('Add Customer')).click();
@@ -184,7 +184,7 @@ describe('Banking framework testing', function() {
 	   });
 	   });
 
-  it('InitialTraction', function() {
+  xit('InitialTraction', function() {
 		
 	   element(by.partialButtonText('Customer Login')).click();
 	  
@@ -246,7 +246,7 @@ describe('Banking framework testing', function() {
 	   expect(error.getText()).toBe('Transaction Failed. You can not withdraw amount more than the balance.');//assertion
 	    
   });
- it('withdrawl success', function() {//first enter the initial transaction amount then perform this operation
+ xit('withdrawl success', function() {//first enter the initial transaction amount then perform this operation
 		
 	   element(by.partialButtonText('Customer Login')).click();//first Deposit then withdrawl
 	  
@@ -266,7 +266,7 @@ describe('Banking framework testing', function() {
 	   expect(msg.getText()).toBe('Transaction successful');//assertion
 	    
  });
-  it('TransationAfterWithdrawl', function() {//first initial transaction then 1000 withdrawl then do this step
+  xit('TransationAfterWithdrawl', function() {//first initial transaction then 1000 withdrawl then do this step
 		
 	   element(by.partialButtonText('Customer Login')).click();
 	  
@@ -302,7 +302,7 @@ describe('Banking framework testing', function() {
 	  
 	   console.log('Transaction table is empty, cannot read the the table');
 });
-  xit('To go to main age', function() {
+  it('To go to main age', function() {
 		
 	   element(by.partialButtonText('Customer Login')).click();
 	  
@@ -320,7 +320,7 @@ describe('Banking framework testing', function() {
 	   expect(text.getText()).toEqual('Harry Potter');
 	   console.log('Harry potter login page is opened');
 });
-  xit('To Logout', function() {
+  it('To Logout', function() {
 		
 	   element(by.partialButtonText('Customer Login')).click();
 	  

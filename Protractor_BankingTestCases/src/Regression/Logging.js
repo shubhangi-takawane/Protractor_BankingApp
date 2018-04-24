@@ -5,12 +5,14 @@ winston.add(winston.transports.File,{filename:'./Reports/winstonLogging.txt'});
 
 describe('angularjs homepage', function() {
   it('should greet the named user', function() {
-	    browser.get('http://www.angularjs.org');
+	    browser.get('http://www.way2automation.com/angularjs-protractor/banking/#/login');
 		browser.manage().window().maximize();
 		winston.log("info","url is opened");
-	    var name=element(by.model('yourName')).sendKeys('tekarch');
-	    var greeting = element(by.binding('yourName'));
-	    expect(greeting.getText()).toEqual('Hello tekarch!'); 
+		expect(element(by.partialButtonText('Customer Login')));
+		expect(element(by.partialButtonText('Bank Manager Login')));
+		 
+		console.log('Customer login and manager login present on page');
+
 	    winston.log("info","closing the browser");
 	    
 	    winston.log("error","closing");

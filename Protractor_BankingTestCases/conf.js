@@ -17,7 +17,7 @@ exports.config = {
   // Spec patterns are relative to the current working directory when
   // protractor is called.
   specs: ['./src/FunctionalTests/spec.js'],
-	  //['./src/Regression/DataDrivenspec.js'],
+	 // ['./src/Regression/Logging.js'],
 	 // ['./src/Regression/spec.js'],
 
   // Options to be passed to Jasmine.
@@ -28,20 +28,20 @@ exports.config = {
 	/*multiCapabilities: [
       {
         'browserName': 'chrome',
-        specs :['./src/FunctionalTests/Calculator.js'] ,
+        specs :['./src/FunctionalTests/spec.js'] ,
       }, 
       {
         'browserName': 'firefox',
-        specs :['./src/Regression/example_spec.js'] ,
+        specs :['./src/Regression/spec.js'] ,
       }
       ],*/
   
- /* onPrepare: function() {
+  onPrepare: function() {
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
           savePath: 'target/screenshots'
         })
       );
-   },*/
+   },
   
 };
