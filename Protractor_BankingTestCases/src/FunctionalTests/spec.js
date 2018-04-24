@@ -9,7 +9,7 @@ describe('Banking framework testing', function() {
 		console.log("test case successful");
 	});
 	
-  xit('login page', function() {
+  it('login page', function() {
    	
     expect(element(by.partialButtonText('Customer Login')));
     expect(element(by.partialButtonText('Bank Manager Login')));
@@ -17,7 +17,7 @@ describe('Banking framework testing', function() {
 	console.log('Customer login and manager login present on page');
 
    });
-  xit('Manager Login', function() {
+  it('Manager Login', function() {
 	   
 	   element(by.partialButtonText('Bank Manager Login')).click();
 	    
